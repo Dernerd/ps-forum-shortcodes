@@ -31,7 +31,7 @@ if ( ! class_exists( 'PSFS_Admin' ) ) {
 		 *
 		 */
 		public function __construct() {
-			$psfs = PSFress_Shortcodes::getInstance();
+			$psfs = PSForum_Shortcodes::getInstance();
 			$this->opt = ( null !== $psfs ) ? $psfs->opt : get_option( 'psforum_shortcodes' );
 			$this->networkactive = ( is_multisite() && array_key_exists( plugin_basename( PSFS_PLUGIN_FILE ), (array) get_site_option( 'active_sitewide_plugins' ) ) );
 		}

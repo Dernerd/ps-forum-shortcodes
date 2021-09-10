@@ -25,7 +25,7 @@ if ( ! class_exists( 'PSFS_Public' ) ) {
 		 * Initializes this class and stores the plugin options.
 		 */
 		public function __construct() {
-			$psfs = PSFress_Shortcodes::getInstance();
+			$psfs = PSForum_Shortcodes::getInstance();
 			$this->opt = ( null !== $psfs ) ? $psfs->opt : get_option( 'psforum_shortcodes' );
 		}
 

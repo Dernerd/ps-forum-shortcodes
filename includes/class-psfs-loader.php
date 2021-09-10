@@ -31,7 +31,7 @@ if ( ! class_exists( 'PSFS_Loader' ) ) {
 		 * all necessary dependencies and defining the hooks.
 		 *
 		 * The constructor uses internal functions to import all the
-		 * plugin dependencies, and will leverage the PSFress_Shortcodes for
+		 * plugin dependencies, and will leverage the PSForum_Shortcodes for
 		 * registering the hooks and the callback functions used throughout the plugin.
 		 */
 		public function __construct( $psfs = null ) {

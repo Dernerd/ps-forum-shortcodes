@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: PS Forum Shortcodes
- * Plugin URI:  https://wordpress.org/plugins/psf-shortcodes/
- * Description: The PSForum Shortcodes plugin provides a TinyMCE dropdown button in the visual editor that users can access to use any PSForum shortcodes.
+ * Plugin URI:  https://n3rds.work/docs/ps-forum-shortcodes-handbuch/
+ * Description: Das PS Forum Shortcodes-Plugin bietet eine TinyMCE-Dropdown-Schaltfläche im visuellen Editor, auf die Benutzer zugreifen können, um alle PSForum-Shortcodes zu verwenden.
  * Version:     2.1
  * Author:      DerN3rd
  * Author URI:  https://n3rds.work
@@ -42,14 +42,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exits if accessed directly.
 }
 
-if ( ! class_exists( 'PSFress_Shortcodes' ) ) {
+if ( ! class_exists( 'PSForum_Shortcodes' ) ) {
 
 	/**
 	 * Main PSForum Shortcodes Class.
 	 *
-	 * @class PSFress_Shortcodes
+	 * @class PSForum_Shortcodes
 	 */
-	final class PSFress_Shortcodes {
+	final class PSForum_Shortcodes {
 
 		/**
 		 * Stores plugin options.
@@ -123,5 +123,5 @@ if ( ! class_exists( 'PSFress_Shortcodes' ) ) {
 /**
  * Starts plugin execution.
  */
-$psfs = PSFress_Shortcodes::getInstance();
+$psfs = PSForum_Shortcodes::getInstance();
 new PSFS_Loader( $psfs );
