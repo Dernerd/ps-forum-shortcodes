@@ -5,13 +5,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $strings = 'tinyMCE.addI18n({' . _WP_Editors::$mce_locale . ': {
 	psforum_shortcodes: {
-		shortcode_title: "' . esc_js( __( 'PSForum', 'psforum-shortcodes' ) ) . '",
-		forums: "' . esc_js( __( 'Forums', 'psforum-shortcodes' ) ) . '",
-		forum_index: "' . esc_js( __( 'Forum Index', 'psforum-shortcodes' ) ) . '",
-		forum_form: "' . esc_js( __( 'New Forum Form', 'psforum-shortcodes' ) ) . '",
-		single_forum: "' . esc_js( __( 'Single Forum', 'psforum-shortcodes' ) ) . '",
+		shortcode_title: "' . esc_js( __( 'PS Forum', 'psforum-shortcodes' ) ) . '",
+		forums: "' . esc_js( __( 'Foren', 'psforum-shortcodes' ) ) . '",
+		forum_index: "' . esc_js( __( 'Forum-Index', 'psforum-shortcodes' ) ) . '",
+		forum_form: "' . esc_js( __( 'Neues Forum Formular', 'psforum-shortcodes' ) ) . '",
+		single_forum: "' . esc_js( __( 'Einzelforum', 'psforum-shortcodes' ) ) . '",
 		forum_id: "' . esc_js( __( 'Forum ID', 'psforum-shortcodes' ) ) . '",
-		topic_id: "' . esc_js( __( 'Topic ID', 'psforum-shortcodes' ) ) . '",
+		topic_id: "' . esc_js( __( 'Thema ID', 'psforum-shortcodes' ) ) . '",
 		reply_id: "' . esc_js( __( 'Reply ID', 'psforum-shortcodes' ) ) . '",
 		tag_id: "' . esc_js( __( 'Tag ID', 'psforum-shortcodes' ) ) . '",
 		need_id: "' . esc_js( __( 'You need to use an ID!', 'psforum-shortcodes' ) ) . '",
